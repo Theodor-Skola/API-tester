@@ -1,0 +1,10 @@
+.kalk {
+	display: flex;
+	flex-direction: column;
+}
+
+.kalkNummer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
