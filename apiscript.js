@@ -8,7 +8,7 @@ async function räknaAlgebra() {
 		
 		const appId = 'XH2YR8V79R';
 		const encodedQuery = encodeURIComponent(input);
-		const url = 'http://api.wolframalpha.com/v1/result?appid=${appId}&i=${encodedQuery}';
+		const url = 'https://api.wolframalpha.com/v1/result?appid=${appId}&i=${encodedQuery}';
 		// const url = 'http://api.wolframalpha.com/v1/result?appid=XH2YR8V79R&i=How+far+is+Los+Angeles+from+New+York%3f';
 		
 		try {
